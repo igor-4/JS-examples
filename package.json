@@ -1,0 +1,27 @@
+{
+  "name": "js_trainee",
+  "version": "1.0.0",
+  "description": "'collection of simple JavaScript examples'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor-4/JS-trainee.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "examples"
+  ],
+  "author": "Cherniakov Igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor-4/JS-trainee/issues"
+  },
+  "homepage": "https://github.com/igor-4/JS-trainee#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1"
+  }
+}
