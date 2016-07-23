@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Multiplication table width JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>multiplication table (v.2 - innerHTML)</h1>
+	<section class="controls">
+		<label for="x">
+			insert X:
+			<input id ='x' name='x' type="text" placeholder="10">
+		</label>
+		<label for="y">
+			insert Y:
+			<input id='y' name='y' type="text" placeholder="10">
+		</label>
+		<label for="generating_time">
+			generating TIME:
+			<input class='generating_time' id='generating_time' name='generating_time' type="text" disabled>
+		</label>
+			<button id='generateButton'>generate multiplication table</button>
+			<button id='clearButton'>reset</button>
+	</section>
+	
+		<div class ='forResult' id='result'></div>
+	
+	<script src='multiplication_module.js'></script>
+	<script src='script.js'></script>
+</body>
+</html>
