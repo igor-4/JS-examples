@@ -1,7 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 
-var basedir = 'multiplication_table(v 2)/';
+var basedir = 'bubling/';
 
 gulp.task('server', function () {  
 	browserSync({
